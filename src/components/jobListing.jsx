@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { AppContext } from '../context/AppContext'
-import { assets } from '../assets/assets'
+import { assets, JobCategories } from '../assets/assets'
 
 const JobListing = () => {
   const{isSearched, searchFilter, setSearchFilter} = useContext(AppContext)
@@ -15,13 +15,13 @@ const JobListing = () => {
                 <h3 className='font-medium text-lg mb-4'>Current Search</h3>
                 <div className='mb-4 text-gray-600'>
                   {searchFilter.title && (
-                    <span className='inline-flex items-center gap-2.5 bg-blue-100 border-blue-200 px-4 py-1.5 rounded'> 
+                    <span className='inline-flex items-center gap-2.5 bg-blue-50 border-blue-200 px-4 py-1.5 rounded'> 
                         {searchFilter.title}
                         <img onClick={e =>setSearchFilter(prev =>({...prev, title: ""}))} className='cursor-pointer h-4 w-4' src={assets.cross_icon} alt=" "/>
                     </span>
                   )}
                   {searchFilter.location && (
-                    <span className='ml-2 inline-flex items-center gap-2.5 bg-red-100 border-red-200 px-4 py-1.5 rounded'>
+                    <span className='ml-2 inline-flex items-center gap-2.5 bg-red-50 border-red-200 px-4 py-1.5 rounded'>
                       {searchFilter.location}
                       <img onClick={e=> setSearchFilter(prev =>({...prev, location: ""}))} className='cursor-pointer h-4 w-4' src={assets.cross_icon} alt=" "/>
                     </span>
@@ -30,6 +30,24 @@ const JobListing = () => {
                 </>
               )
           }
+
+          <div className='max-lg:hidden'>
+            <h4 className='font-medium text-lg py-4'>
+              Search by Categories
+            </h4>
+            <ul className='space-y-4 text-gray-600'>
+              {
+                JobCategories.map((category,index)=>(
+                  <li className='flex gap-3 items-center' key={index}>
+                    <input type="checkbox" name="" id="" />
+                    {category}
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
+
+
         </div>
     </div>
   )
