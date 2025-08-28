@@ -16,6 +16,11 @@ import app_main_img from "./app_main_img.png";
 import facebook_icon from  "./facebook_icon.svg";
 import twitter_icon from  "./twitter_icon.svg";
 import instagram_icon from "./instagram_icon.svg";
+import suitcase_icon from './suitcase_icon.svg';
+import person_icon from './person_icon.svg';
+import location_icon from './location_icon.svg';
+import money_icon from './money_icon.svg';
+
 
 export const assets = {
     logo,
@@ -36,6 +41,10 @@ export const assets = {
      facebook_icon,
     twitter_icon,
     instagram_icon,
+    suitcase_icon,
+    person_icon,
+    location_icon,
+    money_icon,
 
 
 
