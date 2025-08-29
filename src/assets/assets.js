@@ -20,6 +20,7 @@ import suitcase_icon from './suitcase_icon.svg';
 import person_icon from './person_icon.svg';
 import location_icon from './location_icon.svg';
 import money_icon from './money_icon.svg';
+import profile_upload_icon from './profile_upload_icon.svg'
 
 
 export const assets = {
@@ -45,6 +46,7 @@ export const assets = {
     person_icon,
     location_icon,
     money_icon,
+     profile_upload_icon,
 
 
 
@@ -68,6 +70,49 @@ export const JobLocations = [
     "Gulshan-2",
     "Banani"
 ]
+
+export const jobsApplied = [
+    {
+        company: 'Amazon',
+        title: 'Full Stack Developer',
+        location: 'Bangalore',
+        date: '22 Aug, 2024',
+        status: 'Pending',
+        logo: company_icon,
+    },
+    {
+        company: 'Meta',
+        title: 'Data Scientist',
+        location: 'San Francisco',
+        date: '22 Aug, 2024',
+        status: 'Rejected',
+        logo: company_icon,
+    },
+    {
+        company: 'Google',
+        title: 'Marketing Manager',
+        location: 'London',
+        date: '25 Sep, 2024',
+        status: 'Accepted',
+        logo: company_icon,
+    },
+    {
+        company: 'Qualcomm',
+        title: 'UI/UX Designer',
+        location: 'Dubai',
+        date: '15 Oct, 2024',
+        status: 'Pending',
+        logo: company_icon,
+    },
+    {
+        company: 'Microsoft',
+        title: 'Full Stack Developer',
+        location: 'Hyderabad',
+        date: '25 Sep, 2024',
+        status: 'Accepted',
+        logo: company_icon,
+    },
+];
 
 
 export const jobsData = [
