@@ -21,6 +21,10 @@ import person_icon from './person_icon.svg';
 import location_icon from './location_icon.svg';
 import money_icon from './money_icon.svg';
 import profile_upload_icon from './profile_upload_icon.svg'
+import email_icon from './email_icon.svg';
+import lock_icon from './lock_icon.svg';
+import upload_area from './upload_area.svg';
+
 
 
 export const assets = {
@@ -47,6 +51,9 @@ export const assets = {
     location_icon,
     money_icon,
      profile_upload_icon,
+     email_icon,
+     lock_icon,
+     upload_area
 
 
 
