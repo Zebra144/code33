@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
 import { assets, jobsApplied } from '../assets/assets'
+import Footer from '../components/Footer'
 import moment from 'moment'
 
 
@@ -69,6 +70,7 @@ const Applications = () => {
         </tbody>
       </table>
     </div>
+    <Footer/>
     </>
   )
 }
