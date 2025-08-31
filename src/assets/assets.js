@@ -20,13 +20,15 @@ import suitcase_icon from './suitcase_icon.svg';
 import person_icon from './person_icon.svg';
 import location_icon from './location_icon.svg';
 import money_icon from './money_icon.svg';
-import profile_upload_icon from './profile_upload_icon.svg'
+import profile_upload_icon from './profile_upload_icon.svg';
 import email_icon from './email_icon.svg';
 import lock_icon from './lock_icon.svg';
 import upload_area from './upload_area.svg';
-import add_icon from './add_icon.svg'
-import home_icon from './home_icon.svg'
-import person_tick_icon from './person_tick_icon.svg'
+import add_icon from './add_icon.svg';
+import home_icon from './home_icon.svg';
+import person_tick_icon from './person_tick_icon.svg';
+import profile_img from  './profile_img.png';
+import resume_download_icon from './resume_download_icon.svg';
 
 
 export const assets = {
@@ -59,6 +61,8 @@ export const assets = {
      add_icon ,
      home_icon,
      person_tick_icon,
+     profile_img,
+     resume_download_icon,
 
 
 
@@ -125,6 +129,24 @@ export const jobsApplied = [
         logo: company_icon,
     },
 ];
+export const manageJobsData = [
+    { _id: 1, title: "Full Stack Developer", date: 1729102298497, location: "Bangalore", applicants: 20 },
+    { _id: 2, title: "Data Scientist", date: 1729102298497, location: "San Francisco", applicants: 15 },
+    { _id: 3, title: "Marketing Manager", date: 1729102298497, location: "London", applicants: 2 },
+    { _id: 4, title: "UI/UX Designer", date: 1729102298497, location: "Dubai", applicants: 25 }
+];
+
+export const viewApplicationsPageData =[
+    {_id: 1, name: "Richard Sanford", jobTitle: "Full Stack Developer", location: "Bangalore", imgSrc: profile_img},
+    {_id: 2, name: "Enrique Murphy", jobTitle: "Data Scientist", location: "San Francisco", imgSrc: profile_img},
+    {_id: 3, name: "Alison Powell", jobTitle: "Marketing Manager", location: "London", imgSrc: profile_img},
+    {_id: 4, name: "Richard Sanford", jobTitle: "UI/UX Designer", location: "Dubai", imgSrc: profile_img},
+    {_id: 5, name: "Enrique Murphy", jobTitle: "Full Stack Developer", location: "Hyderabad", imgSrc: profile_img},
+    {_id: 6, name: "Alison Powell", jobTitle: "Data Scientist", location: "New Delhi", imgSrc: profile_img},
+    {_id: 7, name: "Richard Sanford", jobTitle: "Marketing Manager", location: "Chennai", imgSrc: profile_img},
+];
+
+
 
 
 export const jobsData = [
