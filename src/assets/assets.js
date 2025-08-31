@@ -24,7 +24,9 @@ import profile_upload_icon from './profile_upload_icon.svg'
 import email_icon from './email_icon.svg';
 import lock_icon from './lock_icon.svg';
 import upload_area from './upload_area.svg';
-
+import add_icon from './add_icon.svg'
+import home_icon from './home_icon.svg'
+import person_tick_icon from './person_tick_icon.svg'
 
 
 export const assets = {
@@ -53,7 +55,10 @@ export const assets = {
      profile_upload_icon,
      email_icon,
      lock_icon,
-     upload_area
+     upload_area,
+     add_icon ,
+     home_icon,
+     person_tick_icon,
 
 
 
