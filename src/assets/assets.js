@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo_2.svg";
 import search_icon from "./search_icon.svg";
 import microsoft_logo from "./microsoft_logo.svg";
 import walmart_logo from "./walmart_logo.svg";
@@ -91,7 +91,7 @@ export const jobsApplied = [
     {
         company: 'Amazon',
         title: 'Full Stack Developer',
-        location: 'Bangalore',
+        location: 'Mirpur',
         date: '22 Aug, 2024',
         status: 'Pending',
         logo: company_icon,
@@ -123,27 +123,27 @@ export const jobsApplied = [
     {
         company: 'Microsoft',
         title: 'Full Stack Developer',
-        location: 'Hyderabad',
+        location: 'Moakhali',
         date: '25 Sep, 2024',
         status: 'Accepted',
         logo: company_icon,
     },
 ];
 export const manageJobsData = [
-    { _id: 1, title: "Full Stack Developer", date: 1729102298497, location: "Bangalore", applicants: 20 },
-    { _id: 2, title: "Data Scientist", date: 1729102298497, location: "San Francisco", applicants: 15 },
-    { _id: 3, title: "Marketing Manager", date: 1729102298497, location: "London", applicants: 2 },
-    { _id: 4, title: "UI/UX Designer", date: 1729102298497, location: "Dubai", applicants: 25 }
+    { _id: 1, title: "Full Stack Developer", date: 1729102298497, location: "Mirpur", applicants: 20 },
+    { _id: 2, title: "Data Scientist", date: 1729102298497, location: "Banani", applicants: 15 },
+    { _id: 3, title: "Marketing Manager", date: 1729102298497, location: "Moakhali", applicants: 2 },
+    { _id: 4, title: "UI/UX Designer", date: 1729102298497, location: "Gulshan-2", applicants: 25 }
 ];
 
 export const viewApplicationsPageData =[
-    {_id: 1, name: "Richard Sanford", jobTitle: "Full Stack Developer", location: "Bangalore", imgSrc: profile_img},
+    {_id: 1, name: "Richard Sanford", jobTitle: "Full Stack Developer", location: "Mirpur", imgSrc: profile_img},
     {_id: 2, name: "Enrique Murphy", jobTitle: "Data Scientist", location: "San Francisco", imgSrc: profile_img},
-    {_id: 3, name: "Alison Powell", jobTitle: "Marketing Manager", location: "London", imgSrc: profile_img},
-    {_id: 4, name: "Richard Sanford", jobTitle: "UI/UX Designer", location: "Dubai", imgSrc: profile_img},
-    {_id: 5, name: "Enrique Murphy", jobTitle: "Full Stack Developer", location: "Hyderabad", imgSrc: profile_img},
-    {_id: 6, name: "Alison Powell", jobTitle: "Data Scientist", location: "New Delhi", imgSrc: profile_img},
-    {_id: 7, name: "Richard Sanford", jobTitle: "Marketing Manager", location: "Chennai", imgSrc: profile_img},
+    {_id: 3, name: "Alison Powell", jobTitle: "Marketing Manager", location: "Banani", imgSrc: profile_img},
+    {_id: 4, name: "Richard Sanford", jobTitle: "UI/UX Designer", location: "Banani", imgSrc: profile_img},
+    {_id: 5, name: "Enrique Murphy", jobTitle: "Full Stack Developer", location: "Moakhali", imgSrc: profile_img},
+    {_id: 6, name: "Alison Powell", jobTitle: "Data Scientist", location: "Gulshan-2", imgSrc: profile_img},
+    {_id: 7, name: "Richard Sanford", jobTitle: "Marketing Manager", location: "Gulshan-2", imgSrc: profile_img},
 ];
 
 
@@ -153,7 +153,7 @@ export const jobsData = [
     {
         _id: '1',
         title: "Full Stack Developer",
-        location: "California",
+        location: "Gulshan-1",
         level: "Senior Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -186,7 +186,7 @@ export const jobsData = [
     {
         _id: '2',
         title: "Data Scientist",
-        location: "New York",
+        location: "Banani",
         level: "Intermediate Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -219,7 +219,7 @@ export const jobsData = [
     {
         _id: '3',
         title: "UI/UX Designer",
-        location: "Bangalore",
+        location: "Mirpur",
         level: "Beginner Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -252,7 +252,7 @@ export const jobsData = [
     {
         _id: '4',
         title: "DevOps Engineer",
-        location: "Washington",
+        location: "Tejgaon",
         level: "Senior Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -285,7 +285,7 @@ export const jobsData = [
     {
         _id: '5',
         title: "Software Engineer",
-        location: "Hyderabad",
+        location: "Moakhali",
         level: "Intermediate Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -319,7 +319,7 @@ export const jobsData = [
  {
         _id: '6',
         title: "Network Engineer",
-        location: "Bangalore",
+        location: "Mirpur",
         level: "Senior Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -352,7 +352,7 @@ export const jobsData = [
     {
         _id: '7',
         title: "Project Manager",
-        location: "Bangalore",
+        location: "Mirpur",
         level: "Senior Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -385,7 +385,7 @@ export const jobsData = [
     {
         _id: '8',
         title: "Mobile App Developer",
-        location: "Hyderabad",
+        location: "Moakhali",
         level: "Intermediate Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -418,7 +418,7 @@ export const jobsData = [
     {
         _id: '9',
         title: "Cloud Architect",
-        location: "Hyderabad",
+        location: "Moakhali",
         level: "Senior Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -451,7 +451,7 @@ export const jobsData = [
     {
         _id: '10',
         title: "Technical Writer",
-        location: "Mumbai",
+        location: "Panthapath",
         level: "Intermediate Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -484,7 +484,7 @@ export const jobsData = [
     {
         _id: '11',
         title: "Cybersecurity Analyst",
-        location: "Mumbai",
+        location: "Panthapath",
         level: "Intermediate Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -517,7 +517,7 @@ export const jobsData = [
     {
         _id: '12',
         title: "Business Analyst",
-        location: "Mumbai",
+        location: "Panthapath",
         level: "Intermediate Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -550,7 +550,7 @@ export const jobsData = [
     {
         _id: '13',
         title: "Marketing Specialist",
-        location: "Chennai",
+        location: "Gulshan-2",
         level: "Beginner Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -583,7 +583,7 @@ export const jobsData = [
      {
         _id: '14',
         title: "Data Scientist",
-        location: "California",
+        location: "Gulshan-1",
         level: "Senior Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -616,7 +616,7 @@ export const jobsData = [
     {
         _id: '15',
         title: "UX/UI Designer",
-        location: "Hyderabad",
+        location: "Moakhali",
         level: "Intermediate Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -649,7 +649,7 @@ export const jobsData = [
     {
         _id: '16',
         title: "DevOps Engineer",
-        location: "Bangalore",
+        location: "Mirpur",
         level: "Senior Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -682,7 +682,7 @@ export const jobsData = [
     {
         _id: '17',
         title: "Sales Manager",
-        location: "New York",
+        location: "Banani",
         level: "Senior Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -715,7 +715,7 @@ export const jobsData = [
     {
         _id: '18',
         title: "Human Resources Specialist",
-        location: "Washington",
+        location: "Tejgaon",
         level: "Intermediate Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -748,7 +748,7 @@ export const jobsData = [
     {
         _id: '19',
         title: "Content Marketing Manager",
-        location: "Mumbai",
+        location: "Panthapath",
         level: "Senior Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -781,7 +781,7 @@ export const jobsData = [
     {
         _id: '20',
         title: "Graphic Designer",
-        location: "Chennai",
+        location: "Gulshan-2",
         level: "Intermediate Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -814,7 +814,7 @@ export const jobsData = [
     {
         _id: '21',
         title: "Software Tester",
-        location: "Chennai",
+        location: "Gulshan-2",
         level: "Intermediate Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -847,7 +847,7 @@ export const jobsData = [
     {
         _id: '22',
         title: "Network Security Engineer",
-        location: "Bangalore",
+        location: "Mirpur",
         level: "Senior Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
@@ -880,7 +880,7 @@ export const jobsData = [
     {
         _id: '23',
         title: "Cloud Engineer",
-        location: "Hyderabad",
+        location: "Moakhali",
         level: "Intermediate Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
