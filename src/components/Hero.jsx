@@ -24,46 +24,40 @@ const Hero = () => {
 
 
   return (
-    <div className='container 2xl:px-20 mx-auto my-10'>
-        <div className='bg-gradient-to-r from-blue-800 to-blue-950 text-white py-16 text-center mx-5 rounded-xl'>
-        <h2 className='text-2xl md:text-3xl lg:text-4xl font-medium mb-4'> Explore over 10,000 jobs waiting for you!!</h2>
-        <p className='mb-8 max-w-xl mx-auto text-sm font-light px-5'>Explore endless possibilities</p>
-        <div className='flex items-center justify-between bg-white rounded text-gray-600 max-w-xl pl-4 mx-4 sm:mx-auto'>
-            <div className='flex items-center'>
-               <img className='h-4 sm:h-5' src={assets.search_icon} alt="" />
-               <input type="text" 
-               placeholder='Begin Your Career '
-               className='max-sm:text-xs p-2 rounded outline-none w-full'
-               ref ={titleRef}
-               />
-            </div>
-             <div className='flex items-center'>
-               <img className='h-4 sm:h-5' src={assets.location_icon} alt="" />
-               <input type="text" 
-               placeholder='Location'
-               className='max-sm:text-xs p-2 rounded outline-none w-full'
-               ref = {locationRef}
-               />
-            </div>
-            <button onClick={onSearch} className='bg-gray-400 px-6 py-2 rounded text-white m-1' >Search</button>
-        </div>
-        </div>
-
-<div className ='border border-gray-300 shadow-md mx-2 mt-5 p-6 rounded-md flex'>
-    <div  className ='flex justify-center gap-10 lg:gap-16 flex-wrap'>
-       <p className ='font-medium'>Trusted By </p> 
-       <img className ='h-6' src={assets.walmart_logo} alt="" />
-       <img className ='h-6' src={assets.samsung_logo} alt="" />
-       <img className ='h-6' src={assets.microsoft_logo} alt="" />
-       <img className ='h-6' src={assets.accenture_logo} alt="" />
-       <img className ='h-6' src={assets.amazon_logo} alt="" />
-       <img className ='h-6' src={assets.adobe_logo} alt="" />
-       
+    <div className="container 2xl:px-20 mx-auto my-10">
+  <div className="flex items-center justify-between bg-gradient-to-r from-gray-900 via-black to-gray-900 shadow-lg rounded-2xl text-gray-200 max-w-3xl px-4 py-2 mx-4 sm:mx-auto transition-all duration-300">
+    {/* Search Input */}
+    <div className="flex items-center gap-2 flex-1 border-r border-gray-700 pr-3">
+      <img className="h-5 sm:h-6 opacity-70" src={assets.search_icon} alt="" />
+      <input
+        type="text"
+        placeholder="Search your required jobs..."
+        className="bg-transparent text-sm sm:text-base p-2 rounded outline-none w-full placeholder-gray-400 focus:placeholder-gray-300"
+        ref={titleRef}
+      />
     </div>
+
+    {/* Location Input */}
+    <div className="flex items-center gap-2 flex-1 border-r border-gray-700 pr-3 pl-3">
+      <img className="h-5 sm:h-6 opacity-70" src={assets.location_icon} alt="" />
+      <input
+        type="text"
+        placeholder="Location"
+        className="bg-transparent text-sm sm:text-base p-2 rounded outline-none w-full placeholder-gray-400 focus:placeholder-gray-300"
+        ref={locationRef}
+      />
+    </div>
+
+    {/* Search Button */}
+    <button
+      onClick={onSearch}
+      className="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-xl text-white font-medium hover:scale-105 hover:shadow-lg transition-all duration-300 m-1"
+    >
+      Search
+    </button>
+  </div>
 </div>
 
-
-    </div>
   )
 }
 
